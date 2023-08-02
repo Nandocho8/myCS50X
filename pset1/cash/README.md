@@ -61,7 +61,8 @@ Change owed: 41
 <li data-marker="*"><span class="fa-li"><i class="fas fa-square"></i></span>If you input <code class="language-plaintext highlighter-rouge">99</code>, does your program output <code class="language-plaintext highlighter-rouge">9</code> (i.e., three quarters, two dimes, and four pennies)?</li>
 </ul>
 
-
+<h2>Results</h2>
+<img src="results.png" >
 
 
 
