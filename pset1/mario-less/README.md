@@ -188,16 +188,8 @@ printf("\n");
 
 <p>All that remains now is a finishing flourish! Modify <code class="language-plaintext highlighter-rouge">mario.c</code> in such a way that it prints spaces instead of those dots!</p>
 
+<h2>Results</h2>
 
+![Alt text](image.png)
 
-</main>
-
-</div>
-
-</div>
-
-
-
-
-
-</body></html>
+</body>
