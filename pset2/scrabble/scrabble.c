@@ -19,9 +19,40 @@ int main(void)
     int score2 = compute_score(word2);
 
     // TODO: Print the winner
+    if (score1 > score2)
+    {
+        printf("Player 1 wins!\n");
+    }
+    else if (score1 < score2)
+    {
+        printf("Player 2 wins!\n");
+    }
+    else
+    {
+        printf("Tie!\n");
+    }
 }
 
 int compute_score(string word)
 {
     // TODO: Compute and return score for string
+    // define variable
+    char c;
+    int pos;
+    int score = 0;
+    // loop between frist and last char of word
+    for (int i = 0, len = strlen(word); i < len; i++)
+    {
+        // is alpha
+        if (isalpha(word[i]))
+        {
+            // convert the char in lowercase char
+            c = tolower(word[i]);
+            // pos equals number ascii of char minus 97 that is char 'a', with that i get the position in array
+            pos = c - 97;
+            // find in array POINTS and add at score
+            score += POINTS[pos];
+        }
+    }
+    return score;
 }
